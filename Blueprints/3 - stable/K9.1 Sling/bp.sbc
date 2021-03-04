@@ -1,0 +1,1967 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipBlueprints>
+    <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="K9.1 Sling" />
+      <DisplayName>TupiNUMBooR</DisplayName>
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>129580126368866700</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="123113.18316510769" y="135925.89930935705" z="5790333.8190801814" />
+            <Forward x="-0.844754338" y="0.5121716" z="-0.155146167" />
+            <Up x="-0.132666826" y="0.0804353952" z="0.987891555" />
+            <Orientation>
+              <X>0.56631875</X>
+              <Y>0.318920046</Y>
+              <Z>0.372914732</Z>
+              <W>0.66219914</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="0" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
+              <EntityId>93413296862125357</EntityId>
+              <Min x="0" y="1" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Battery 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>3</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
+              <SubtypeName>OpenCockpitLarge</SubtypeName>
+              <EntityId>127885618831308593</EntityId>
+              <Min x="-1" y="1" z="0" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Control Seat</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>IncreaseVelocity</Action>
+                      <BlockEntityId>113667820455476790</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>DecreaseVelocity</Action>
+                      <BlockEntityId>113667820455476790</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>RotorLock</Action>
+                      <BlockEntityId>113667820455476790</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>137521616873790634</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>4</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>113486987877689701</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>9</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>IncreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Spinner Pistons</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>10</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>DecreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Spinner Pistons</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>11</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>IncreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Spinner Rotors</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>12</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>DecreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Spinner Rotors</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>18</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Run</Action>
+                      <Parameters>
+                        <MyObjectBuilder_ToolbarItemActionParameter>
+                          <TypeCode>String</TypeCode>
+                          <Value>-1</Value>
+                        </MyObjectBuilder_ToolbarItemActionParameter>
+                      </Parameters>
+                      <BlockEntityId>95195029840244632</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>19</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Run</Action>
+                      <Parameters>
+                        <MyObjectBuilder_ToolbarItemActionParameter>
+                          <TypeCode>String</TypeCode>
+                          <Value>135</Value>
+                        </MyObjectBuilder_ToolbarItemActionParameter>
+                      </Parameters>
+                      <BlockEntityId>95195029840244632</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>IncreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Base Pistons</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>DecreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Base Pistons</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>IncreaseVelocity</Action>
+                      <BlockEntityId>91761629209033947</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>DecreaseVelocity</Action>
+                      <BlockEntityId>91761629209033947</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>4</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>IncreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Spinner Pistons</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>5</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>DecreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Spinner Pistons</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>6</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>IncreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Spinner Rotors</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>7</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>DecreaseVelocity</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>127885618831308593</BlockEntityId>
+                      <GroupName>Spinner Rotors</GroupName>
+                    </Data>
+                  </Slot>
+                </SlotsGamepad>
+              </Toolbar>
+              <SelectedGunId xsi:nil="true" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <PilotRelativeWorld>
+                <Position x="0.00044433752191253006" y="0.44979226589202881" z="3.2456033229827881" />
+                <Forward x="0.205563486" y="-0.667071342" z="-0.716072142" />
+                <Up x="-0.360190451" y="0.628767" z="-0.6891405" />
+                <Orientation>
+                  <X>-0.3758688</X>
+                  <Y>-0.0262020212</Y>
+                  <Z>0.210568637</Z>
+                  <W>0.9020515</W>
+                </Orientation>
+              </PilotRelativeWorld>
+              <PilotGunDefinition xsi:nil="true" />
+              <IsInFirstPersonView>true</IsInFirstPersonView>
+              <OxygenLevel>0</OxygenLevel>
+              <PilotJetpackEnabled xsi:nil="true" />
+              <TextPanels>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_EnergyHydrogen</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_Weather</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_ClockAnalog</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_Gravity</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+              </TextPanels>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
+              <SubtypeName>LargeProgrammableBlock</SubtypeName>
+              <EntityId>95195029840244632</EntityId>
+              <Min x="0" y="1" z="-1" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Programmable block</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Program>//================ Sling ================
+//1.03 km = 143 deg
+float secondsBeforeRelease = 15;
+float targetVelocity = 999; //-30:30 RPM
+float releaseAngleError = 1;
+
+List&lt;IMyMotorStator&gt; spinRotors = new List&lt;IMyMotorStator&gt;();
+List&lt;IMyPistonBase&gt; spinPistons = new List&lt;IMyPistonBase&gt;();
+List&lt;IMyShipMergeBlock&gt; merges = new List&lt;IMyShipMergeBlock&gt;();
+List&lt;IMyWarhead&gt; warheads = new List&lt;IMyWarhead&gt;();
+IMyTextSurface face;
+float releaseAngle;
+string log;
+Stage stage;
+DateTime time;
+
+public Program() {
+    face = Me.GetSurface(0);
+    face.ContentType = ContentType.TEXT_AND_IMAGE;
+    face.FontSize = 2;
+    face.Alignment = TextAlignment.CENTER;
+    face.FontColor = Color.Lime;
+    face.BackgroundColor = new Color(0x101010);
+    Init();
+}
+
+void Init() {
+    UpdateBlocks();
+    Merge = true;
+    Detonation = false;
+    Velocity = 0;
+    Updating = false;
+    Retracting = false;
+    face.WriteText($"Rotors: {spinRotors.Count}\nMerge blocks: {merges.Count}\nWarheads: {warheads.Count}\nArg: [0-360] deg");
+}
+
+void Save() { }
+
+void Main(string argument) {
+    var angle = Angle;
+    log = $"{stage}\n" +
+          $"A:{releaseAngle:N2}; a:{angle:N2}\n" +
+          $"t:{DateTime.Now - time}\n";
+
+    if (argument != "") {
+        Init();
+        if (!float.TryParse(argument, out releaseAngle) || releaseAngle &lt; 0 || releaseAngle &gt; 360) return;
+        time = DateTime.Now.AddSeconds(secondsBeforeRelease);
+        stage = Stage.SpeedingUp;
+        Updating = true;
+        Velocity = targetVelocity;
+        Retracting = true;
+    }
+
+    switch (stage) {
+        case Stage.Off:
+            break;
+
+        case Stage.SpeedingUp:
+            if (DateTime.Now &gt; time) stage = Stage.WaitAngleToRelease;
+            break;
+
+        case Stage.WaitAngleToRelease:
+            if (Math.Abs(angle - releaseAngle) &lt; releaseAngleError) {
+                Detonation = true;
+                Merge = false;
+                Velocity = 0;
+                Retracting = false;
+                time = DateTime.Now.AddSeconds(1);
+                stage = Stage.WaitToTurnOnMerge;
+            }
+
+            break;
+
+        case Stage.WaitToTurnOnMerge:
+            if (DateTime.Now &gt; time) {
+                Merge = true;
+                Updating = false;
+                log += "Finished";
+                stage = Stage.Off;
+            }
+
+            break;
+    }
+
+    face.WriteText(log);
+}
+
+float Angle =&gt; spinRotors.Sum(r =&gt; r.Angle) / (float) Math.PI * 180 % 360;
+
+bool Merge {
+    set {
+        merges.ForEach(m =&gt; m.GetActionWithName($"OnOff_{(value ? "On" : "Off")}").Apply(m));
+        UpdateBlocks();
+    }
+}
+
+float Velocity {
+    set =&gt; spinRotors.ForEach(r =&gt; r.TargetVelocityRPM = value);
+}
+
+bool Retracting {
+    set =&gt; spinPistons.ForEach(p =&gt; p.Velocity = value ? 0.5f : -5f);
+}
+
+bool Updating {
+    set {
+        if (value)
+            Runtime.UpdateFrequency |= UpdateFrequency.Update1;
+        else
+            Runtime.UpdateFrequency &amp;= ~UpdateFrequency.Update1;
+    }
+}
+
+bool Detonation {
+    set =&gt; warheads.ForEach(w =&gt; {
+            w.IsArmed = value;
+            w.DetonationTime = value ? 15 : 0;
+            if (value) w.StartCountdown();
+            else w.StopCountdown();
+        });
+}
+
+void UpdateBlocks() {
+    GridTerminalSystem.GetBlockGroupWithName("Spinner Rotors").GetBlocksOfType(spinRotors);
+    GridTerminalSystem.GetBlockGroupWithName("Spinner Pistons").GetBlocksOfType(spinPistons);
+    GridTerminalSystem.GetBlocksOfType(merges);
+    GridTerminalSystem.GetBlocksOfType(warheads);
+}
+
+enum Stage {
+    Off,
+    SpeedingUp,
+    WaitAngleToRelease,
+    WaitToTurnOnMerge
+}
+</Program>
+              <Storage />
+              <DefaultRunArgument>180</DefaultRunArgument>
+              <TextPanels>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>2</FontSize>
+                  <Text>Rotors: 3
+Merge blocks: 2
+Warheads: 0
+Arg: [0-360] deg</Text>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <Alignment>2</Alignment>
+                  <ContentType>TEXT_AND_IMAGE</ContentType>
+                  <SelectedScript />
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>3</FontSize>
+                  <Text>1.03 km ~= 143 degrees</Text>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>TEXT_AND_IMAGE</ContentType>
+                  <SelectedScript />
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>1052688</PackedValue>
+                    <X>16</X>
+                    <Y>16</Y>
+                    <Z>16</Z>
+                    <R>16</R>
+                    <G>16</G>
+                    <B>16</B>
+                    <A>0</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4278255360</PackedValue>
+                    <X>0</X>
+                    <Y>255</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>255</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+              </TextPanels>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="3" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="5" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="6" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="7" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="8" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="9" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="10" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="11" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="12" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="13" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="15" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="14" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="16" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="17" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorStator">
+              <SubtypeName>LargeStator</SubtypeName>
+              <EntityId>113667820455476790</EntityId>
+              <Min x="0" y="18" z="0" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Base Rotor</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>141502936526974537</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <TargetVelocity>0</TargetVelocity>
+              <MinAngle xsi:nil="true" />
+              <MaxAngle xsi:nil="true" />
+              <CurrentAngle>0.0574598052</CurrentAngle>
+              <LimitsActive>false</LimitsActive>
+              <RotorLock>true</RotorLock>
+              <Torque>3.36E+07</Torque>
+              <BrakingTorque>0</BrakingTorque>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ButtonPanel">
+              <SubtypeName>ButtonPanelLarge</SubtypeName>
+              <EntityId>98330708397524814</EntityId>
+              <Min x="-1" y="1" z="-1" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Button Panel</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Run</Action>
+                      <Parameters>
+                        <MyObjectBuilder_ToolbarItemActionParameter>
+                          <TypeCode>String</TypeCode>
+                          <Value>-1</Value>
+                        </MyObjectBuilder_ToolbarItemActionParameter>
+                      </Parameters>
+                      <BlockEntityId>95195029840244632</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Run</Action>
+                      <Parameters>
+                        <MyObjectBuilder_ToolbarItemActionParameter>
+                          <TypeCode>String</TypeCode>
+                          <Value>144</Value>
+                        </MyObjectBuilder_ToolbarItemActionParameter>
+                      </Parameters>
+                      <BlockEntityId>95195029840244632</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad />
+              </Toolbar>
+              <AnyoneCanUse>false</AnyoneCanUse>
+              <CustomButtonNames>
+                <dictionary>
+                  <item>
+                    <Key>0</Key>
+                    <Value>Programmable block - Run</Value>
+                  </item>
+                  <item>
+                    <Key>1</Key>
+                    <Value>Programmable block - Run</Value>
+                  </item>
+                </dictionary>
+              </CustomButtonNames>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <IsStatic>true</IsStatic>
+          <DisplayName>K9.1 Sling</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>8</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>140879126028581291</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="123107.15655377957" y="135929.55238552892" z="5790378.6898077205" />
+            <Forward x="0.5660963" y="0.8242901" z="0.008984253" />
+            <Up x="-0.13270779" y="0.0803720951" z="0.987891138" />
+            <Orientation>
+              <X>0.659961939</X>
+              <Y>-0.2625688</Y>
+              <Z>-0.155769691</Z>
+              <W>0.6864719</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorRotor">
+              <SubtypeName>LargeRotor</SubtypeName>
+              <EntityId>141502936526974537</EntityId>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ParentEntityId>113667820455476790</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="2" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="3" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="4" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorStator">
+              <SubtypeName>LargeStator</SubtypeName>
+              <EntityId>113636245551677129</EntityId>
+              <Min x="0" y="1" z="5" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Rotor 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>144054518997695459</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <TargetVelocity>0</TargetVelocity>
+              <MinAngle xsi:nil="true" />
+              <MaxAngle xsi:nil="true" />
+              <CurrentAngle>2.35285974</CurrentAngle>
+              <LimitsActive>false</LimitsActive>
+              <RotorLock>false</RotorLock>
+              <Torque>3.36E+07</Torque>
+              <BrakingTorque>0</BrakingTorque>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>LargeCameraBlock</SubtypeName>
+              <EntityId>137521616873790634</EntityId>
+              <Min x="1" y="1" z="4" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.333333343" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Base Camera</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>0.100006968</Fov>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Spinner Rotors</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>1</Y>
+                  <Z>5</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Large Grid 2252</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>140230228437066937</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="123099.51031354519" y="135919.10280056798" z="5790381.0433233455" />
+            <Forward x="0.670758545" y="-0.454211354" z="-0.586323261" />
+            <Up x="-0.5660887" y="-0.824294567" z="-0.009047657" />
+            <Orientation>
+              <X>-0.435539246</X>
+              <Y>0.13093476</Y>
+              <Z>0.8499723</Z>
+              <W>0.265911162</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorRotor">
+              <SubtypeName>LargeRotor</SubtypeName>
+              <EntityId>144054518997695459</EntityId>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ParentEntityId>113636245551677129</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorStator">
+              <SubtypeName>LargeStator</SubtypeName>
+              <EntityId>110531482627734686</EntityId>
+              <Min x="0" y="1" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Rotor</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>75932280211760762</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <TargetVelocity>0</TargetVelocity>
+              <MinAngle xsi:nil="true" />
+              <MaxAngle xsi:nil="true" />
+              <CurrentAngle>4.093268</CurrentAngle>
+              <LimitsActive>false</LimitsActive>
+              <RotorLock>false</RotorLock>
+              <Torque>3.36E+07</Torque>
+              <BrakingTorque>0</BrakingTorque>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Spinner Rotors</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>1</Y>
+                  <Z>0</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Large Grid 3693</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>86971582479411060</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="123097.85699323269" y="135916.69520779455" z="5790381.0162237361" />
+            <Forward x="0.00072859996" y="-0.0120483218" z="0.9999273" />
+            <Up x="-0.566026449" y="-0.8243323" z="-0.009520105" />
+            <Orientation>
+              <X>0.9550715</X>
+              <Y>-0.2963141</Y>
+              <Z>-0.00213305373</Z>
+              <W>-0.00564576173</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorRotor">
+              <SubtypeName>LargeRotor</SubtypeName>
+              <EntityId>75932280211760762</EntityId>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ParentEntityId>110531482627734686</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorStator">
+              <SubtypeName>LargeStator</SubtypeName>
+              <EntityId>130775622776411002</EntityId>
+              <Min x="0" y="1" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Rotor</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>115216936909091467</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <TargetVelocity>0</TargetVelocity>
+              <MinAngle xsi:nil="true" />
+              <MaxAngle xsi:nil="true" />
+              <CurrentAngle>6.08794975</CurrentAngle>
+              <LimitsActive>false</LimitsActive>
+              <RotorLock>false</RotorLock>
+              <Torque>3.36E+07</Torque>
+              <BrakingTorque>0</BrakingTorque>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Spinner Rotors</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>1</Y>
+                  <Z>0</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Large Grid 4423</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>134634953670810418</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="123096.20367292019" y="135914.28724881017" z="5790380.9880254939" />
+            <Forward x="-0.159225658" y="0.09796359" z="0.9823698" />
+            <Up x="-0.566024959" y="-0.824332952" z="-0.009539265" />
+            <Orientation>
+              <X>0.95073235</X>
+              <Y>-0.295453727</Y>
+              <Z>0.0909642056</Z>
+              <W>0.0232516341</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorRotor">
+              <SubtypeName>LargeRotor</SubtypeName>
+              <EntityId>115216936909091467</EntityId>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ParentEntityId>130775622776411002</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExtendedPistonBase">
+              <SubtypeName>LargePistonBase</SubtypeName>
+              <EntityId>95257239990053719</EntityId>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Right" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Piston</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>75747355223368391</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <Velocity>-1</Velocity>
+              <MaxLimit>1</MaxLimit>
+              <MinLimit>0</MinLimit>
+              <Reverse>false</Reverse>
+              <CurrentPosition>0</CurrentPosition>
+              <MaxImpulseAxis>50000</MaxImpulseAxis>
+              <MaxImpulseNonAxis>50000</MaxImpulseNonAxis>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>LargeCameraBlock</SubtypeName>
+              <EntityId>113486987877689701</EntityId>
+              <Min x="0" y="1" z="-1" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.333333343" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Spinner Camera</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>0.10000661</Fov>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Spinner Pistons</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>1</Y>
+                  <Z>0</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Large Grid 5941</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>100900196986284565</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="123095.20464948269" y="135911.96803494298" z="5790378.34971983" />
+            <Forward x="0.8088648" y="-0.5575684" z="0.1866956" />
+            <Up x="0.159215212" y="-0.09796262" z="-0.9823715" />
+            <Orientation>
+              <X>-0.680199742</X>
+              <Y>-0.361491531</Y>
+              <Z>0.293785</Z>
+              <W>0.5659881</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
+              <SubtypeName>LargePistonTop</SubtypeName>
+              <EntityId>75747355223368391</EntityId>
+              <ColorMaskHSV x="0.333333343" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ParentEntityId>95257239990053719</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExtendedPistonBase">
+              <SubtypeName>LargePistonBase</SubtypeName>
+              <EntityId>80019251524798862</EntityId>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Piston</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>117464914126497909</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <Velocity>-1</Velocity>
+              <MaxLimit>1</MaxLimit>
+              <MinLimit>0</MinLimit>
+              <Reverse>false</Reverse>
+              <CurrentPosition>0</CurrentPosition>
+              <MaxImpulseAxis>50000</MaxImpulseAxis>
+              <MaxImpulseNonAxis>50000</MaxImpulseNonAxis>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="0" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="1" z="0" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Spinner Pistons</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>1</Y>
+                  <Z>0</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Large Grid 8307</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>99677951310557663</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="123096.02398542019" y="135911.45509548986" z="5790373.2809942439" />
+            <Forward x="0.566031456" y="0.824328244" z="0.009532094" />
+            <Up x="0.159202963" y="-0.09795782" z="-0.9823738" />
+            <Orientation>
+              <X>-0.273233026</X>
+              <Y>-0.6558275</Y>
+              <Z>0.688711</Z>
+              <W>0.144606918</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
+              <SubtypeName>LargePistonTop</SubtypeName>
+              <EntityId>117464914126497909</EntityId>
+              <IntegrityPercent>0.8162478</IntegrityPercent>
+              <ColorMaskHSV x="0.333333343" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ParentEntityId>80019251524798862</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+              <SubtypeName>LargeShipMergeBlock</SubtypeName>
+              <EntityId>127243385568626510</EntityId>
+              <Min x="0" y="2" z="0" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Spinner Merge Block</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+              <SubtypeName>LargeProjector</SubtypeName>
+              <EntityId>111600532962002373</EntityId>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Spinner Projector</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <ProjectedGrids>
+                <MyObjectBuilder_CubeGrid>
+                  <SubtypeName />
+                  <EntityId>100034611348308694</EntityId>
+                  <PersistentFlags>CastShadows InScene</PersistentFlags>
+                  <PositionAndOrientation>
+                    <Position x="0" y="0" z="0" />
+                    <Forward x="-0.8025059" y="0.1721431" z="-0.57127136" />
+                    <Up x="-0.0860768557" y="0.914054036" z="0.3963533" />
+                    <Orientation>
+                      <X>0.162077889</X>
+                      <Y>0.43369928</Y>
+                      <Z>0.1292429</Z>
+                      <W>0.8768877</W>
+                    </Orientation>
+                  </PositionAndOrientation>
+                  <LocalPositionAndOrientation xsi:nil="true" />
+                  <GridSizeEnum>Large</GridSizeEnum>
+                  <CubeBlocks>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+                      <SubtypeName>LargeShipMergeBlock</SubtypeName>
+                      <EntityId>134404597566325855</EntityId>
+                      <Min x="0" y="2" z="1" />
+                      <BlockOrientation Forward="Left" Up="Up" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                      <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                      <Owner>144115188075855886</Owner>
+                      <ShareMode>Faction</ShareMode>
+                      <CustomName>Spinner Merge Block</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+                      <SubtypeName>LargeShipMergeBlock</SubtypeName>
+                      <EntityId>82057514840268516</EntityId>
+                      <Min x="0" y="2" z="0" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                      <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                      <Owner>144115188075855886</Owner>
+                      <ShareMode>Faction</ShareMode>
+                      <CustomName>Projectile Merge Block</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>LargeHeavyBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="-1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                      <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+                      <SubtypeName>LargeProjector</SubtypeName>
+                      <EntityId>121682619590274746</EntityId>
+                      <Min x="0" y="2" z="2" />
+                      <BlockOrientation Forward="Forward" Up="Left" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                      <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                      <Owner>144115188075855886</Owner>
+                      <ShareMode>Faction</ShareMode>
+                      <CustomName>Spinner Projector</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <Enabled>true</Enabled>
+                      <ProjectedGrids>
+                        <MyObjectBuilder_CubeGrid>
+                          <SubtypeName />
+                          <EntityId>132979592224612100</EntityId>
+                          <PersistentFlags>CastShadows InScene</PersistentFlags>
+                          <PositionAndOrientation>
+                            <Position x="0" y="0" z="0" />
+                            <Forward x="-0.802504063" y="0.17214413" z="-0.5712737" />
+                            <Up x="-0.08607623" y="0.9140545" z="0.3963524" />
+                            <Orientation>
+                              <X>0.16207777</X>
+                              <Y>0.433697969</Y>
+                              <Z>0.129242137</Z>
+                              <W>0.876888454</W>
+                            </Orientation>
+                          </PositionAndOrientation>
+                          <LocalPositionAndOrientation xsi:nil="true" />
+                          <GridSizeEnum>Large</GridSizeEnum>
+                          <CubeBlocks>
+                            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+                              <SubtypeName>LargeShipMergeBlock</SubtypeName>
+                              <EntityId>134301791022336296</EntityId>
+                              <Min x="0" y="2" z="1" />
+                              <BlockOrientation Forward="Left" Up="Up" />
+                              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                              <Owner>144115188075855886</Owner>
+                              <ShareMode>Faction</ShareMode>
+                              <CustomName>Spinner Merge Block</CustomName>
+                              <ShowOnHUD>false</ShowOnHUD>
+                              <ShowInTerminal>true</ShowInTerminal>
+                              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                              <ShowInInventory>true</ShowInInventory>
+                              <Enabled>true</Enabled>
+                            </MyObjectBuilder_CubeBlock>
+                            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+                              <SubtypeName>LargeShipMergeBlock</SubtypeName>
+                              <EntityId>118682167654122720</EntityId>
+                              <Min x="0" y="2" z="0" />
+                              <BlockOrientation Forward="Left" Up="Down" />
+                              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                              <Owner>144115188075855886</Owner>
+                              <ShareMode>Faction</ShareMode>
+                              <CustomName>Projectile Merge Block</CustomName>
+                              <ShowOnHUD>false</ShowOnHUD>
+                              <ShowInTerminal>true</ShowInTerminal>
+                              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                              <ShowInInventory>true</ShowInInventory>
+                              <Enabled>true</Enabled>
+                            </MyObjectBuilder_CubeBlock>
+                            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                              <SubtypeName>LargeHeavyBlockArmorBlock</SubtypeName>
+                              <Min x="0" y="2" z="-1" />
+                              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                            </MyObjectBuilder_CubeBlock>
+                            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+                              <SubtypeName>LargeProjector</SubtypeName>
+                              <EntityId>144043030548621534</EntityId>
+                              <Min x="0" y="2" z="2" />
+                              <BlockOrientation Forward="Forward" Up="Left" />
+                              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                              <Owner>144115188075855886</Owner>
+                              <ShareMode>Faction</ShareMode>
+                              <CustomName>Spinner Projector</CustomName>
+                              <ShowOnHUD>false</ShowOnHUD>
+                              <ShowInTerminal>true</ShowInTerminal>
+                              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                              <ShowInInventory>true</ShowInInventory>
+                              <Enabled>true</Enabled>
+                              <ProjectionOffset>
+                                <X>0</X>
+                                <Y>0</Y>
+                                <Z>0</Z>
+                              </ProjectionOffset>
+                              <ProjectionRotation>
+                                <X>0</X>
+                                <Y>0</Y>
+                                <Z>0</Z>
+                              </ProjectionRotation>
+                              <KeepProjection>false</KeepProjection>
+                              <ShowOnlyBuildable>false</ShowOnlyBuildable>
+                              <InstantBuildingEnabled>false</InstantBuildingEnabled>
+                              <MaxNumberOfProjections>5</MaxNumberOfProjections>
+                              <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+                              <ProjectionsRemaining>0</ProjectionsRemaining>
+                              <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+                              <Scale>1</Scale>
+                            </MyObjectBuilder_CubeBlock>
+                            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TerminalBlock">
+                              <SubtypeName>ControlPanel</SubtypeName>
+                              <EntityId>79887850466853651</EntityId>
+                              <Min x="-1" y="2" z="2" />
+                              <BlockOrientation Forward="Left" Up="Forward" />
+                              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                              <Owner>144115188075855886</Owner>
+                              <ShareMode>Faction</ShareMode>
+                              <CustomName>Control Panel 3</CustomName>
+                              <ShowOnHUD>false</ShowOnHUD>
+                              <ShowInTerminal>false</ShowInTerminal>
+                              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+                              <ShowInInventory>true</ShowInInventory>
+                            </MyObjectBuilder_CubeBlock>
+                            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+                              <SubtypeName>LargeBlockBatteryBlock</SubtypeName>
+                              <EntityId>89141741652254918</EntityId>
+                              <Min x="0" y="2" z="3" />
+                              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                              <Owner>144115188075855886</Owner>
+                              <ShareMode>Faction</ShareMode>
+                              <CustomName>Battery</CustomName>
+                              <ShowOnHUD>false</ShowOnHUD>
+                              <ShowInTerminal>true</ShowInTerminal>
+                              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                              <ShowInInventory>true</ShowInInventory>
+                              <Enabled>true</Enabled>
+                              <CurrentStoredPower>3</CurrentStoredPower>
+                              <ProducerEnabled>true</ProducerEnabled>
+                              <MaxStoredPower>0</MaxStoredPower>
+                              <SemiautoEnabled>false</SemiautoEnabled>
+                              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+                              <ChargeMode>0</ChargeMode>
+                            </MyObjectBuilder_CubeBlock>
+                          </CubeBlocks>
+                          <DisplayName>Spinner Projectile</DisplayName>
+                          <DestructibleBlocks>true</DestructibleBlocks>
+                          <CreatePhysics>false</CreatePhysics>
+                          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+                          <IsRespawnGrid>false</IsRespawnGrid>
+                          <LocalCoordSys>0</LocalCoordSys>
+                          <TargetingTargets />
+                        </MyObjectBuilder_CubeGrid>
+                      </ProjectedGrids>
+                      <ProjectionOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>1</Z>
+                      </ProjectionOffset>
+                      <ProjectionRotation>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </ProjectionRotation>
+                      <KeepProjection>true</KeepProjection>
+                      <ShowOnlyBuildable>true</ShowOnlyBuildable>
+                      <InstantBuildingEnabled>false</InstantBuildingEnabled>
+                      <MaxNumberOfProjections>5</MaxNumberOfProjections>
+                      <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+                      <ProjectionsRemaining>0</ProjectionsRemaining>
+                      <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+                      <Scale>1</Scale>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TerminalBlock">
+                      <SubtypeName>ControlPanel</SubtypeName>
+                      <EntityId>75772956281937040</EntityId>
+                      <Min x="-1" y="2" z="2" />
+                      <BlockOrientation Forward="Left" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+                      <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+                      <Owner>144115188075855886</Owner>
+                      <ShareMode>Faction</ShareMode>
+                      <CustomName>Control Panel 3</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>false</ShowInTerminal>
+                      <ShowInToolbarConfig>false</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                    </MyObjectBuilder_CubeBlock>
+                  </CubeBlocks>
+                  <DisplayName>K9 Spinner Projectile</DisplayName>
+                  <DestructibleBlocks>true</DestructibleBlocks>
+                  <CreatePhysics>false</CreatePhysics>
+                  <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+                  <IsRespawnGrid>false</IsRespawnGrid>
+                  <LocalCoordSys>0</LocalCoordSys>
+                  <TargetingTargets />
+                </MyObjectBuilder_CubeGrid>
+              </ProjectedGrids>
+              <ProjectionOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1</Z>
+              </ProjectionOffset>
+              <ProjectionRotation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </ProjectionRotation>
+              <KeepProjection>true</KeepProjection>
+              <ShowOnlyBuildable>true</ShowOnlyBuildable>
+              <InstantBuildingEnabled>false</InstantBuildingEnabled>
+              <MaxNumberOfProjections>5</MaxNumberOfProjections>
+              <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+              <ProjectionsRemaining>0</ProjectionsRemaining>
+              <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+              <Scale>1</Scale>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TerminalBlock">
+              <SubtypeName>ControlPanel</SubtypeName>
+              <EntityId>81135945874031683</EntityId>
+              <Min x="-1" y="1" z="0" />
+              <IntegrityPercent>0.815124035</IntegrityPercent>
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.333333343" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Control Panel 3</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+              <SubtypeName>LargeShipMergeBlock</SubtypeName>
+              <EntityId>142356459341429926</EntityId>
+              <Min x="0" y="3" z="0" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+              <Owner>144115188075855889</Owner>
+              <BuiltBy>144115188075855889</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Projectile Merge Block</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeHeavyBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855889</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <Skeleton>
+            <BoneInfo>
+              <BonePosition x="0" y="0" z="0" />
+              <BoneOffset x="123" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="0" z="1" />
+              <BoneOffset x="123" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="4" z="2" />
+              <BoneOffset x="115" y="126" z="125" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="4" z="1" />
+              <BoneOffset x="118" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="4" z="0" />
+              <BoneOffset x="123" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="0" z="2" />
+              <BoneOffset x="124" y="127" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="2" z="2" />
+              <BoneOffset x="123" y="127" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="1" y="1" z="2" />
+              <BoneOffset x="123" y="127" z="127" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="1" />
+              <BoneOffset x="122" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="-1" y="3" z="2" />
+              <BoneOffset x="120" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="1" />
+              <BoneOffset x="121" y="127" z="126" />
+            </BoneInfo>
+            <BoneInfo>
+              <BonePosition x="0" y="1" z="0" />
+              <BoneOffset x="119" y="126" z="125" />
+            </BoneInfo>
+          </Skeleton>
+          <DisplayName>Large Grid 3200</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561198142129275</OwnerSteamId>
+      <Points>0</Points>
+    </ShipBlueprint>
+  </ShipBlueprints>
+</Definitions>

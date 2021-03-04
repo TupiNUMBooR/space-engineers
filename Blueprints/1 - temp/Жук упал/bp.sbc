@@ -1,0 +1,1829 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipBlueprints>
+    <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Жук упал" />
+      <DisplayName>TupiNUMBooR</DisplayName>
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>131939980450226457</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53586.467926545956" y="-26574.920769023658" z="12056.127026013182" />
+            <Forward x="0.418123275" y="0.906963" z="0.0509000868" />
+            <Up x="0.8823767" y="-0.418824852" z="0.214468747" />
+            <Orientation>
+              <X>0.6491453</X>
+              <Y>0.322583973</Y>
+              <Z>-0.5366776</Z>
+              <W>0.431887865</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="5" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="5" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="5" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="5" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="6" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="6" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="5" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="6" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="6" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
+              <SubtypeName>SmallSuspension5x5mirrored</SubtypeName>
+              <EntityId>86079379006918284</EntityId>
+              <Min x="-6" y="5" z="0" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <BuiltBy>144115188075855883</BuiltBy>
+              <CustomName>Wheel Suspension 5x5 Left</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>90017259350187285</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <SteerAngle>0.025428731</SteerAngle>
+              <Damping>0.9</Damping>
+              <Strength>3.40282347E+38</Strength>
+              <Propulsion>true</Propulsion>
+              <Friction>2.8</Friction>
+              <Power>0</Power>
+              <Height>-0.5</Height>
+              <MaxSteerAngle>0.349066</MaxSteerAngle>
+              <InvertSteer>false</InvertSteer>
+              <InvertPropulsion>false</InvertPropulsion>
+              <SpeedLimit>180</SpeedLimit>
+              <PowerNew>0.6</PowerNew>
+              <StrengthNew>0.0497893542</StrengthNew>
+              <FrictionNew>0.5</FrictionNew>
+              <AirShockEnabled>true</AirShockEnabled>
+              <BrakingEnabled>true</BrakingEnabled>
+              <SteeringOverride>0</SteeringOverride>
+              <PropulsionOverride>0</PropulsionOverride>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
+              <SubtypeName>SmallSuspension5x5</SubtypeName>
+              <EntityId>80407529322496498</EntityId>
+              <Min x="4" y="5" z="0" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <BuiltBy>144115188075855883</BuiltBy>
+              <CustomName>Wheel Suspension 5x5 Right</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>137413391823536520</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <SteerAngle>0.025428731</SteerAngle>
+              <Damping>0.9</Damping>
+              <Strength>3.40282347E+38</Strength>
+              <Propulsion>true</Propulsion>
+              <Friction>2.8</Friction>
+              <Power>0</Power>
+              <Height>-0.5</Height>
+              <MaxSteerAngle>0.349066</MaxSteerAngle>
+              <InvertSteer>false</InvertSteer>
+              <InvertPropulsion>false</InvertPropulsion>
+              <SpeedLimit>180</SpeedLimit>
+              <PowerNew>0.6</PowerNew>
+              <StrengthNew>0.0497893542</StrengthNew>
+              <FrictionNew>0.5</FrictionNew>
+              <AirShockEnabled>true</AirShockEnabled>
+              <BrakingEnabled>true</BrakingEnabled>
+              <SteeringOverride>0</SteeringOverride>
+              <PropulsionOverride>0</PropulsionOverride>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="5" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="4" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="4" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="4" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="4" z="4" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="4" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="4" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="4" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="4" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="4" z="4" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="4" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="4" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="5" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="5" z="5" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorStator">
+              <SubtypeName>SmallStator</SubtypeName>
+              <EntityId>114692168790622393</EntityId>
+              <Min x="0" y="5" z="6" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <Owner>144115188075855901</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Rotor F</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>142997805375006570</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <TargetVelocity>0</TargetVelocity>
+              <MinAngle xsi:nil="true" />
+              <MaxAngle xsi:nil="true" />
+              <CurrentAngle>0.0276171714</CurrentAngle>
+              <LimitsActive>false</LimitsActive>
+              <RotorLock>false</RotorLock>
+              <Torque>448000</Torque>
+              <BrakingTorque>0</BrakingTorque>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
+              <SubtypeName>OpenCockpitSmall</SubtypeName>
+              <EntityId>79927002577873575</EntityId>
+              <Min x="-1" y="5" z="0" />
+              <ColorMaskHSV x="0.027777778" y="0.2" z="0.55" />
+              <SkinSubtypeId>CarbonFibre_Armor</SkinSubtypeId>
+              <Owner>144115188075855883</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Control Seat</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>IncreaseVelocity</Action>
+                      <BlockEntityId>114692168790622393</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>DecreaseVelocity</Action>
+                      <BlockEntityId>114692168790622393</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>IncreaseVelocity</Action>
+                      <BlockEntityId>98425701020312344</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>DecreaseVelocity</Action>
+                      <BlockEntityId>98425701020312344</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>IncreaseVelocity</Action>
+                      <BlockEntityId>114692168790622393</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>DecreaseVelocity</Action>
+                      <BlockEntityId>114692168790622393</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>IncreaseVelocity</Action>
+                      <BlockEntityId>98425701020312344</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>DecreaseVelocity</Action>
+                      <BlockEntityId>98425701020312344</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </SlotsGamepad>
+              </Toolbar>
+              <SelectedGunId xsi:nil="true" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <PilotRelativeWorld>
+                <Position x="0.761345624923706" y="0.82611674070358276" z="-2.8035359382629395" />
+                <Forward x="-0.286469281" y="-0.6506912" z="0.703232646" />
+                <Up x="0.0166389737" y="0.730505168" z="0.682704151" />
+                <Orientation>
+                  <X>0.06079157</X>
+                  <Y>0.920826137</Y>
+                  <Z>0.3620107</Z>
+                  <W>0.131650761</W>
+                </Orientation>
+              </PilotRelativeWorld>
+              <PilotGunDefinition xsi:nil="true" />
+              <IsInFirstPersonView>true</IsInFirstPersonView>
+              <OxygenLevel>0</OxygenLevel>
+              <PilotJetpackEnabled xsi:nil="true" />
+              <TextPanels>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+              </TextPanels>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>79100202062933025</EntityId>
+              <Min x="2" y="5" z="0" />
+              <ColorMaskHSV x="0.027777778" y="0.2" z="0.55" />
+              <SkinSubtypeId>CarbonFibre_Armor</SkinSubtypeId>
+              <Owner>144115188075855883</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>75076624188435312</EntityId>
+              <Min x="-2" y="5" z="0" />
+              <ColorMaskHSV x="0.027777778" y="0.2" z="0.55" />
+              <SkinSubtypeId>CarbonFibre_Armor</SkinSubtypeId>
+              <Owner>144115188075855883</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>76777271200211444</EntityId>
+              <Min x="-2" y="5" z="1" />
+              <ColorMaskHSV x="0.027777778" y="0.2" z="0.55" />
+              <SkinSubtypeId>CarbonFibre_Armor</SkinSubtypeId>
+              <Owner>144115188075855883</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>78435919210122794</EntityId>
+              <Min x="2" y="5" z="1" />
+              <ColorMaskHSV x="0.027777778" y="0.2" z="0.55" />
+              <SkinSubtypeId>CarbonFibre_Armor</SkinSubtypeId>
+              <Owner>144115188075855883</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery 5</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>wheels</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>-5</X>
+                  <Y>6</Y>
+                  <Z>0</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>5</X>
+                  <Y>6</Y>
+                  <Z>1</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Жук упал</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>119771854395335484</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53587.404434724667" y="-26578.721409129859" z="12056.508657864379" />
+            <Forward x="-0.191387683" y="0.0331740566" z="0.980953157" />
+            <Up x="-0.418109655" y="-0.906968653" z="-0.0509027131" />
+            <Orientation>
+              <X>0.9715875</X>
+              <Y>-0.215626091</Y>
+              <Z>0.0974799</Z>
+              <W>-0.00456178561</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorRotor">
+              <SubtypeName>SmallRotor</SubtypeName>
+              <EntityId>142997805375006570</EntityId>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ParentEntityId>114692168790622393</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="-2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="-2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="3" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="3" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="3" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="3" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="3" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="3" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="3" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
+              <SubtypeName>SmallSuspension5x5mirrored</SubtypeName>
+              <EntityId>87201762186017639</EntityId>
+              <Min x="0" y="3" z="-6" />
+              <BlockOrientation Forward="Right" Up="Forward" />
+              <BuiltBy>144115188075855883</BuiltBy>
+              <CustomName>Wheel Suspension 5x5 Left</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>77067198806015390</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <SteerAngle>-0.0143665066</SteerAngle>
+              <Damping>0.9</Damping>
+              <Strength>3.40282347E+38</Strength>
+              <Propulsion>true</Propulsion>
+              <Friction>2.8</Friction>
+              <Power>0</Power>
+              <Height>-0.5</Height>
+              <MaxSteerAngle>0.349066</MaxSteerAngle>
+              <InvertSteer>false</InvertSteer>
+              <InvertPropulsion>false</InvertPropulsion>
+              <SpeedLimit>180</SpeedLimit>
+              <PowerNew>0.6</PowerNew>
+              <StrengthNew>0.0497893542</StrengthNew>
+              <FrictionNew>0.5</FrictionNew>
+              <AirShockEnabled>true</AirShockEnabled>
+              <BrakingEnabled>true</BrakingEnabled>
+              <SteeringOverride>0</SteeringOverride>
+              <PropulsionOverride>0</PropulsionOverride>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
+              <SubtypeName>SmallSuspension5x5</SubtypeName>
+              <EntityId>139914125407807999</EntityId>
+              <Min x="0" y="3" z="4" />
+              <BlockOrientation Forward="Right" Up="Backward" />
+              <BuiltBy>144115188075855883</BuiltBy>
+              <CustomName>Wheel Suspension 5x5 Right</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>118020469176457460</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <SteerAngle>-0.0143665066</SteerAngle>
+              <Damping>0.9</Damping>
+              <Strength>3.40282347E+38</Strength>
+              <Propulsion>true</Propulsion>
+              <Friction>2.8</Friction>
+              <Power>0</Power>
+              <Height>-0.5</Height>
+              <MaxSteerAngle>0.349066</MaxSteerAngle>
+              <InvertSteer>false</InvertSteer>
+              <InvertPropulsion>false</InvertPropulsion>
+              <SpeedLimit>180</SpeedLimit>
+              <PowerNew>0.6</PowerNew>
+              <StrengthNew>0.0497893542</StrengthNew>
+              <FrictionNew>0.5</FrictionNew>
+              <AirShockEnabled>true</AirShockEnabled>
+              <BrakingEnabled>true</BrakingEnabled>
+              <SteeringOverride>0</SteeringOverride>
+              <PropulsionOverride>0</PropulsionOverride>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="6" z="3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="6" z="2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="6" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="6" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="6" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="6" z="-2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="6" z="-3" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="3" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="3" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="3" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="3" z="-2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="-2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="-2" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="6" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="6" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="6" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorStator">
+              <SubtypeName>SmallStator</SubtypeName>
+              <EntityId>98425701020312344</EntityId>
+              <Min x="0" y="7" z="0" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <Owner>144115188075855901</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Rotor B</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>126990123217055406</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <TargetVelocity>0</TargetVelocity>
+              <MinAngle xsi:nil="true" />
+              <MaxAngle xsi:nil="true" />
+              <CurrentAngle>6.26078844</CurrentAngle>
+              <LimitsActive>false</LimitsActive>
+              <RotorLock>false</RotorLock>
+              <Torque>448000</Torque>
+              <BrakingTorque>0</BrakingTorque>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>121628018493984149</EntityId>
+              <Min x="0" y="4" z="2" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <Owner>144115188075855901</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
+              <SubtypeName>OpenCockpitSmall</SubtypeName>
+              <EntityId>100601266781411530</EntityId>
+              <Min x="0" y="3" z="-1" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.027777778" y="0.2" z="0.55" />
+              <SkinSubtypeId>CarbonFibre_Armor</SkinSubtypeId>
+              <Owner>144115188075855883</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Control Seat</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </Toolbar>
+              <SelectedGunId xsi:nil="true" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <PilotRelativeWorld>
+                <Position x="0.20232374966144562" y="1.4980471134185791" z="2.7294292449951172" />
+                <Forward x="-0.08647232" y="-0.918626" z="-0.385549933" />
+                <Up x="-0.00411067344" y="0.387325257" z="-0.921933949" />
+                <Orientation>
+                  <X>-0.553030431</X>
+                  <Y>0.0371804</Y>
+                  <Z>-0.0222425535</Z>
+                  <W>0.8320338</W>
+                </Orientation>
+              </PilotRelativeWorld>
+              <PilotGunDefinition xsi:nil="true" />
+              <IsInFirstPersonView>true</IsInFirstPersonView>
+              <OxygenLevel>0</OxygenLevel>
+              <PilotJetpackEnabled xsi:nil="true" />
+              <TextPanels>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+              </TextPanels>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>wheels</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>1</X>
+                  <Y>3</Y>
+                  <Z>-5</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>1</X>
+                  <Y>4</Y>
+                  <Z>5</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Small Grid 6750</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>127686559381043359</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53585.013174577572" y="-26581.268984126807" z="12059.917997769164" />
+            <Forward x="-0.9705483" y="-0.15524435" z="-0.184214979" />
+            <Up x="-0.191496521" y="0.0332015753" z="0.9809315" />
+            <Orientation>
+              <X>0.3988783</X>
+              <Y>0.498787165</Y>
+              <Z>0.569469333</Z>
+              <W>0.5175057</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
+              <SubtypeName>SmallRealWheel5x5mirrored</SubtypeName>
+              <EntityId>77067198806015390</EntityId>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>Small Grid 3634</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>131882978003067996</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53586.125220819333" y="-26579.79650526023" z="12052.505773953246" />
+            <Forward x="-0.9317173" y="-0.320417523" z="-0.170984551" />
+            <Up x="0.1912998" y="-0.0327826738" z="-0.9809841" />
+            <Orientation>
+              <X>-0.5409522</X>
+              <Y>0.3491109</Y>
+              <Z>-0.473034918</Z>
+              <W>0.601440132</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
+              <SubtypeName>SmallRealWheel5x5</SubtypeName>
+              <EntityId>118020469176457460</EntityId>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>Small Grid 8809</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>95620553705331924</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53585.9259939631" y="-26581.928493785621" z="12056.328672817992" />
+            <Forward x="-0.8835137" y="0.419004381" z="-0.209376812" />
+            <Up x="-0.418075144" y="-0.9069854" z="-0.050892964" />
+            <Orientation>
+              <X>0.6095865</X>
+              <Y>-0.153999716</Y>
+              <Z>0.762821853</Z>
+              <W>0.150967687</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorRotor">
+              <SubtypeName>SmallRotor</SubtypeName>
+              <EntityId>126990123217055406</EntityId>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ParentEntityId>98425701020312344</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="1" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="1" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="2" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="3" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="2" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="3" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="3" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="4" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="4" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="4" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="4" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="5" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="5" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="5" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="5" z="0" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="5" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="2" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="3" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="3" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="2" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="2" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="3" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="3" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="5" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="5" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="5" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="5" z="-1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
+              <SubtypeName>SmallSuspension5x5mirrored</SubtypeName>
+              <EntityId>122458906941260481</EntityId>
+              <Min x="4" y="4" z="0" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <BuiltBy>144115188075855883</BuiltBy>
+              <CustomName>Wheel Suspension 5x5 Left 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>95499363755702624</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <SteerAngle>0</SteerAngle>
+              <Damping>0.9</Damping>
+              <Strength>3.40282347E+38</Strength>
+              <Propulsion>true</Propulsion>
+              <Friction>2.8</Friction>
+              <Power>0</Power>
+              <Height>-0.5</Height>
+              <MaxSteerAngle>0.349066</MaxSteerAngle>
+              <InvertSteer>false</InvertSteer>
+              <InvertPropulsion>false</InvertPropulsion>
+              <SpeedLimit>180</SpeedLimit>
+              <PowerNew>0.6</PowerNew>
+              <StrengthNew>0.0497893542</StrengthNew>
+              <FrictionNew>0.5</FrictionNew>
+              <AirShockEnabled>true</AirShockEnabled>
+              <BrakingEnabled>true</BrakingEnabled>
+              <SteeringOverride>0</SteeringOverride>
+              <PropulsionOverride>0</PropulsionOverride>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-3" y="5" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="4" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="3" y="5" z="1" />
+              <BuiltBy>144115188075855883</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorSuspension">
+              <SubtypeName>SmallSuspension5x5</SubtypeName>
+              <EntityId>132003141611158004</EntityId>
+              <Min x="-6" y="4" z="0" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <BuiltBy>144115188075855883</BuiltBy>
+              <CustomName>Wheel Suspension 5x5 Right 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>110652675542696849</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <SteerAngle>0</SteerAngle>
+              <Damping>0.9</Damping>
+              <Strength>3.40282347E+38</Strength>
+              <Propulsion>true</Propulsion>
+              <Friction>2.8</Friction>
+              <Power>0</Power>
+              <Height>-0.5</Height>
+              <MaxSteerAngle>0.349066</MaxSteerAngle>
+              <InvertSteer>false</InvertSteer>
+              <InvertPropulsion>false</InvertPropulsion>
+              <SpeedLimit>180</SpeedLimit>
+              <PowerNew>0.6</PowerNew>
+              <StrengthNew>0.0497893542</StrengthNew>
+              <FrictionNew>0.5</FrictionNew>
+              <AirShockEnabled>true</AirShockEnabled>
+              <BrakingEnabled>true</BrakingEnabled>
+              <SteeringOverride>0</SteeringOverride>
+              <PropulsionOverride>0</PropulsionOverride>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>117839957850881381</EntityId>
+              <Min x="-2" y="5" z="0" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <Owner>144115188075855901</Owner>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Small Battery</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.05</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>wheels</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>5</X>
+                  <Y>4</Y>
+                  <Z>1</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-5</X>
+                  <Y>5</Y>
+                  <Z>1</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Small Grid 6381</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>117361395822410470</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53586.863417192319" y="-26577.107822704078" z="12060.126310757445" />
+            <Forward x="-0.973413467" y="-0.0879314542" z="-0.211504579" />
+            <Up x="-0.215971917" y="0.04473886" z="0.975374043" />
+            <Orientation>
+              <X>0.408489019</X>
+              <Y>0.4768485</Y>
+              <Z>0.557465136</Z>
+              <W>0.543125153</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
+              <SubtypeName>SmallRealWheel5x5mirrored</SubtypeName>
+              <EntityId>90017259350187285</EntityId>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>Small Grid 9527</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>85247095007241894</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53587.942101999142" y="-26575.9830706594" z="12052.690601757811" />
+            <Forward x="-0.839240253" y="-0.5191231" z="-0.161823243" />
+            <Up x="0.215748876" y="-0.0447272658" z="-0.9754238" />
+            <Orientation>
+              <X>-0.587799132</X>
+              <Y>0.271257371</Y>
+              <Z>-0.4205423</Z>
+              <W>0.635653853</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
+              <SubtypeName>SmallRealWheel5x5</SubtypeName>
+              <EntityId>137413391823536520</EntityId>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>Small Grid 560</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>133391369482506697</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53585.422914071896" y="-26584.29569654441" z="12060.130459240721" />
+            <Forward x="0.384376228" y="-0.914933562" z="0.123089731" />
+            <Up x="-0.211266041" y="0.04261697" z="0.976498842" />
+            <Orientation>
+              <X>-0.213187382</X>
+              <Y>0.7183982</Y>
+              <Z>0.6582118</Z>
+              <W>-0.0721963048</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
+              <SubtypeName>SmallRealWheel5x5mirrored</SubtypeName>
+              <EntityId>95499363755702624</EntityId>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>Small Grid 1894</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>116107996874374257</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="53584.401909395077" y="-26584.679565715553" z="12052.311802319335" />
+            <Forward x="-0.335793674" y="-0.9414053" z="-0.03159477" />
+            <Up x="0.211189389" y="-0.0425568223" z="-0.976518035" />
+            <Orientation>
+              <X>-0.694427252</X>
+              <Y>0.04442213</Y>
+              <Z>-0.1976085</Z>
+              <W>0.6904696</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
+              <SubtypeName>SmallRealWheel5x5</SubtypeName>
+              <EntityId>110652675542696849</EntityId>
+              <BuiltBy>144115188075855883</BuiltBy>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <DisplayName>Small Grid 3487</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561198142129275</OwnerSteamId>
+      <Points>0</Points>
+    </ShipBlueprint>
+  </ShipBlueprints>
+</Definitions>

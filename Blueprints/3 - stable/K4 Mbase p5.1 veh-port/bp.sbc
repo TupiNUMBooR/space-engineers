@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipBlueprints>
+    <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="K4 Mbase p5.1 veh-port" />
+      <DisplayName>TupiNUMBooR</DisplayName>
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>92152042164342837</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="13668.131150561489" y="144015.59794514763" z="-108834.34005813304" />
+            <Forward x="0.08517423" y="-0.5077302" z="0.8572954" />
+            <Up x="-0.288186044" y="0.811091661" z="0.508998156" />
+            <Orientation>
+              <X>-0.152007267</X>
+              <Y>0.9515994</Y>
+              <Z>0.267110378</Z>
+              <W>-0.00208532833</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
+              <SubtypeName>LargeBlockConveyor</SubtypeName>
+              <EntityId>107082143907223541</EntityId>
+              <Min x="0" y="2" z="0" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="1" y="2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
+              <SubtypeName>LargeBlockConveyor</SubtypeName>
+              <EntityId>135400765955058532</EntityId>
+              <Min x="-1" y="2" z="0" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
+              <SubtypeName>LargeBlockConveyor</SubtypeName>
+              <EntityId>134680376660390388</EntityId>
+              <Min x="1" y="2" z="0" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExtendedPistonBase">
+              <SubtypeName>LargePistonBase</SubtypeName>
+              <EntityId>136130765274211906</EntityId>
+              <Min x="-1" y="3" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855892</Owner>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Piston park-1</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>133050614342594105</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <Velocity>-0.1</Velocity>
+              <MaxLimit>1</MaxLimit>
+              <MinLimit>0.2493901</MinLimit>
+              <Reverse>false</Reverse>
+              <CurrentPosition>2.493901</CurrentPosition>
+              <MaxImpulseAxis>50000</MaxImpulseAxis>
+              <MaxImpulseNonAxis>50000</MaxImpulseNonAxis>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="1" y="2" z="1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ButtonPanel">
+              <SubtypeName>ButtonPanelLarge</SubtypeName>
+              <EntityId>138129630181482546</EntityId>
+              <Min x="0" y="3" z="0" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855892</Owner>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Button Panel</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Reverse</Action>
+                      <BlockEntityId>136130765274211906</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Reverse</Action>
+                      <BlockEntityId>98373669777447278</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Reverse</Action>
+                      <BlockEntityId>138705877526605753</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Reverse</Action>
+                      <BlockEntityId>115321184433972807</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad />
+              </Toolbar>
+              <AnyoneCanUse>false</AnyoneCanUse>
+              <CustomButtonNames>
+                <dictionary>
+                  <item>
+                    <Key>0</Key>
+                    <Value>Piston park-1 - Reverse</Value>
+                  </item>
+                  <item>
+                    <Key>1</Key>
+                    <Value>Hinge park-1 - Reverse</Value>
+                  </item>
+                  <item>
+                    <Key>2</Key>
+                    <Value>Piston park-3 - Reverse</Value>
+                  </item>
+                  <item>
+                    <Key>3</Key>
+                    <Value>Hinge park-4 - Reverse</Value>
+                  </item>
+                </dictionary>
+              </CustomButtonNames>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ButtonPanel">
+              <SubtypeName>ButtonPanelLarge</SubtypeName>
+              <EntityId>127837535670245912</EntityId>
+              <Min x="-1" y="3" z="1" />
+              <ColorMaskHSV x="0.333333343" y="0.2" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855892</Owner>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Button Panel 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Reverse</Action>
+                      <BlockEntityId>78259162198573307</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>SwitchLock</Action>
+                      <BlockEntityId>121906652624752465</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>DecreaseUpperLimit</Action>
+                      <BlockEntityId>78259162198573307</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>IncreaseUpperLimit</Action>
+                      <BlockEntityId>78259162198573307</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad />
+              </Toolbar>
+              <AnyoneCanUse>false</AnyoneCanUse>
+              <CustomButtonNames>
+                <dictionary>
+                  <item>
+                    <Key>0</Key>
+                    <Value>Piston park-5 - Reverse</Value>
+                  </item>
+                  <item>
+                    <Key>1</Key>
+                    <Value>Connector - Switch lock</Value>
+                  </item>
+                  <item>
+                    <Key>2</Key>
+                    <Value>Piston park-5 - Decrease Maximum distance</Value>
+                  </item>
+                  <item>
+                    <Key>3</Key>
+                    <Value>Piston park-5 - Increase Maximum distance</Value>
+                  </item>
+                </dictionary>
+              </CustomButtonNames>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeHalfArmorBlock</SubtypeName>
+              <Min x="-2" y="2" z="-1" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeHalfArmorBlock</SubtypeName>
+              <Min x="-2" y="2" z="0" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>LargeHalfArmorBlock</SubtypeName>
+              <Min x="-2" y="2" z="1" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
+              <SubtypeName>LargeBlockLight_1corner</SubtypeName>
+              <EntityId>138703515561137642</EntityId>
+              <Min x="-2" y="1" z="0" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.45" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <CustomName>Corner Light 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Radius>10</Radius>
+              <ReflectorRadius>120</ReflectorRadius>
+              <ColorRed>0</ColorRed>
+              <Falloff>1</Falloff>
+              <Intensity>4</Intensity>
+              <BlinkIntervalSeconds>2.3</BlinkIntervalSeconds>
+              <BlinkLenght>80.8</BlinkLenght>
+              <BlinkOffset>0</BlinkOffset>
+              <Offset>0.5</Offset>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <IsStatic>true</IsStatic>
+          <XMirroxPlane x="0" y="1" z="0" />
+          <ZMirroxPlane x="0" y="1" z="0" />
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-1" y="2" z="0" />
+              <StartDirection>Right</StartDirection>
+              <EndPosition x="0" y="2" z="0" />
+              <EndDirection>Left</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="2" z="0" />
+              <StartDirection>Right</StartDirection>
+              <EndPosition x="1" y="2" z="0" />
+              <EndDirection>Left</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-1" y="2" z="0" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="-1" y="3" z="0" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <DisplayName>K4 Mbase p5.1 veh-port</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>11</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>75507584035138921</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="13673.460086481138" y="144030.83351774662" z="-108825.85089608045" />
+            <Forward x="-0.927780747" y="-0.3541065" z="-0.117606014" />
+            <Up x="0.0850968361" y="-0.5076935" z="0.857324541" />
+            <Orientation>
+              <X>0.5066546</X>
+              <Y>0.4295324</Y>
+              <Z>0.7050872</Z>
+              <W>0.248304352</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorAdvancedRotor">
+              <SubtypeName>LargeHingeHead</SubtypeName>
+              <EntityId>131972487567870678</EntityId>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ParentEntityId>115321184433972807</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExtendedPistonBase">
+              <SubtypeName>LargePistonBase</SubtypeName>
+              <EntityId>78259162198573307</EntityId>
+              <Min x="-3" y="0" z="0" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855892</Owner>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Piston park-5</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>136637782079366564</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <Velocity>-0.1</Velocity>
+              <MaxLimit>0.25</MaxLimit>
+              <MinLimit>0</MinLimit>
+              <Reverse>false</Reverse>
+              <CurrentPosition>0</CurrentPosition>
+              <MaxImpulseAxis>50000</MaxImpulseAxis>
+              <MaxImpulseNonAxis>50000</MaxImpulseNonAxis>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="0" />
+              <StartDirection>Left</StartDirection>
+              <EndPosition x="-1" y="0" z="0" />
+              <EndDirection>Right</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <DisplayName>Large Grid 6500</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>106598794521750709</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="13675.328097955748" y="144026.77590055912" z="-108828.43561287732" />
+            <Forward x="0.92778194" y="0.354105562" z="0.117600188" />
+            <Up x="0.3632891" y="-0.7854071" z="-0.501155138" />
+            <Orientation>
+              <X>0.6741494</X>
+              <Y>0.322990239</Y>
+              <Z>-0.6619866</Z>
+              <W>-0.05453154</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
+              <SubtypeName>LargePistonTop</SubtypeName>
+              <EntityId>136637782079366564</EntityId>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ParentEntityId>78259162198573307</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>Connector</SubtypeName>
+              <EntityId>121906652624752465</EntityId>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855892</Owner>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>8</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Connector</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>true</IsMaster>
+              <TradingEnabled>false</TradingEnabled>
+              <AutoUnlockTime>0</AutoUnlockTime>
+              <TimeOfConnection>0</TimeOfConnection>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="0" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="1" z="0" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <DisplayName>Large Grid 9538</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>130189202134450756</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="13671.07529033856" y="144030.10793180912" z="-108826.04364510388" />
+            <Forward x="-0.287824035" y="0.811220944" z="0.5089962" />
+            <Up x="0.953892052" y="0.290084481" z="0.07707459" />
+            <Orientation>
+              <X>0.5323966</X>
+              <Y>0.6863323</Y>
+              <Z>-0.267416656</Z>
+              <W>0.417121261</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
+              <SubtypeName>LargePistonTop</SubtypeName>
+              <EntityId>141648115800873128</EntityId>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ParentEntityId>138705877526605753</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorAdvancedStator">
+              <SubtypeName>LargeHinge</SubtypeName>
+              <EntityId>115321184433972807</EntityId>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855892</Owner>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Hinge park-4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>131972487567870678</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <TargetVelocity>0.10497535</TargetVelocity>
+              <MinAngle>0.00232254271</MinAngle>
+              <MaxAngle>1.57079637</MaxAngle>
+              <CurrentAngle>1.49062848</CurrentAngle>
+              <LimitsActive>true</LimitsActive>
+              <RotorLock>false</RotorLock>
+              <Torque>3.36E+07</Torque>
+              <BrakingTorque>0</BrakingTorque>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="0" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="1" z="0" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <DisplayName>Large Grid 7379</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>119362399719234740</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="13666.15097393231" y="144028.61867399662" z="-108826.43988533826" />
+            <Forward x="0.2878343" y="-0.811201334" z="-0.509022236" />
+            <Up x="0.08512217" y="-0.507741153" z="0.857293844" />
+            <Orientation>
+              <X>-0.10586483</X>
+              <Y>0.4840263</Y>
+              <Z>0.8617792</Z>
+              <W>-0.108847477</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorAdvancedRotor">
+              <SubtypeName>LargeHingeHead</SubtypeName>
+              <EntityId>117124705515708487</EntityId>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ParentEntityId>98373669777447278</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExtendedPistonBase">
+              <SubtypeName>LargePistonBase</SubtypeName>
+              <EntityId>138705877526605753</EntityId>
+              <Min x="-3" y="0" z="0" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855892</Owner>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Piston park-3</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>141648115800873128</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <Velocity>-0.1</Velocity>
+              <MaxLimit>1</MaxLimit>
+              <MinLimit>0</MinLimit>
+              <Reverse>false</Reverse>
+              <CurrentPosition>0</CurrentPosition>
+              <MaxImpulseAxis>50000</MaxImpulseAxis>
+              <MaxImpulseNonAxis>50000</MaxImpulseNonAxis>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="0" />
+              <StartDirection>Left</StartDirection>
+              <EndPosition x="-1" y="0" z="0" />
+              <EndDirection>Right</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <DisplayName>Large Grid 9618</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>92069858962067216</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="13666.870944635435" y="144026.59035368412" z="-108827.71246834607" />
+            <Forward x="0.085125424" y="-0.5077431" z="0.8572925" />
+            <Up x="-0.2880062" y="0.8111475" z="0.5090109" />
+            <Orientation>
+              <X>-0.151910722</X>
+              <Y>0.9516141</Y>
+              <Z>0.26711303</Z>
+              <W>-0.002086334</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_PistonTop">
+              <SubtypeName>LargePistonTop</SubtypeName>
+              <EntityId>133050614342594105</EntityId>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ParentEntityId>136130765274211906</ParentEntityId>
+              <YieldLastComponent>false</YieldLastComponent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorAdvancedStator">
+              <SubtypeName>LargeHinge</SubtypeName>
+              <EntityId>98373669777447278</EntityId>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.36" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <Owner>144115188075855892</Owner>
+              <BuiltBy>144115188075855892</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Hinge park-2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TopBlockId>117124705515708487</TopBlockId>
+              <ShareInertiaTensor>false</ShareInertiaTensor>
+              <SafetyDetach>5</SafetyDetach>
+              <RotorEntityId xsi:nil="true" />
+              <WeldedEntityId xsi:nil="true" />
+              <TargetVelocity>0.10497535</TargetVelocity>
+              <MinAngle>0.00232254271</MinAngle>
+              <MaxAngle>1.57079637</MaxAngle>
+              <CurrentAngle>1.57097685</CurrentAngle>
+              <LimitsActive>true</LimitsActive>
+              <RotorLock>false</RotorLock>
+              <Torque>3.36E+07</Torque>
+              <BrakingTorque>0</BrakingTorque>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="0" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="1" z="0" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <DisplayName>Large Grid 550</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561198142129275</OwnerSteamId>
+      <Points>0</Points>
+    </ShipBlueprint>
+  </ShipBlueprints>
+</Definitions>
