@@ -20,10 +20,13 @@ namespace IngameScript.Sling {
 
 
 //================ Sling ================
-//1.03 km = 143 deg
-float secondsBeforeRelease = 15;
-float targetVelocity = 999; //-30:30 RPM
-float releaseAngleError = 1;
+// 135 deg = 1.15 km
+// 143 deg = 1.03 km
+// 180 deg = 0.3km
+const float secondsBeforeRelease = 4;
+const float retractSpeed = 1.25f;
+const float targetVelocity = 999; //-30:30 RPM
+const float releaseAngleError = 2;
 
 List<IMyMotorStator> spinRotors = new List<IMyMotorStator>();
 List<IMyPistonBase> spinPistons = new List<IMyPistonBase>();
@@ -121,7 +124,7 @@ float Velocity {
 }
 
 bool Retracting {
-    set => spinPistons.ForEach(p => p.Velocity = value ? 0.5f : -5f);
+    set => spinPistons.ForEach(p => p.Velocity = value ? retractSpeed : -5f);
 }
 
 bool Updating {
